@@ -27,7 +27,57 @@ This will create a new window running 'htop'.
 tmux neww -d -n background 'make build'
 ```
 
+## Selecting windows
 
-## Killing Windows
+> You can select windows with `tmux selectw -n (or -l)` -n being next and -l being last, but more practical way is just using a shortcut.
 
-> To kill a window, 
+### `Ctrl + b then [0-9]` to choose a window with prefix of your choice. This is the recommended way, as it is the fastest. `Ctrl + b then l` selects the last window. 
+
+## Killing windows
+
+> To kill a window, use:
+
+```bash
+tmux killw -t 1
+```
+
+This kills the window with the *INDEX* of 1.
+
+Similarly, you can kill all windows but current one with: 
+
+```bash
+tmux killw -a
+```
+
+## Listing Windows
+```
+tmux lsw -a
+```
+
+>Example Output:
+
+
+```
+murcy@fedora:~$ tmux lsw -a
+bye:0: bash (1 panes) [171x43] 
+bye:1: bash- (1 panes) [171x43] 
+bye:2: bash* (1 panes) [171x43] 
+main:0: bash* (1 panes) [171x43]
+```
+
+## Renaming windows
+
+```
+tmux renamew -t 0 main
+```
+
+Here, '0' is the index of the window unlike in session management.
+
+## Respawning windows
+
+[Respawn guide](https://tmux.info/docs/commands/respawn-window)
+
+##
+
+
+
