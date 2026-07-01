@@ -97,6 +97,7 @@ Killing all sessions except 'main'.
 
 Personally, I like just using `'Ctrl + b' + s` to list sessions, and choosing a session with arrow keys and pressing enter to choose, because it's easier, and more convenient. However, you can still find out more about switching [here](tmux.info/docs/commands/new-session).
 
+---
 
 If you're in an active session, you can also list the existing sessions using: `'Ctrl + b' + s`. This opens a small, and interactive window and lets you choose a session. Shortcuts will be discussed later. 
 
