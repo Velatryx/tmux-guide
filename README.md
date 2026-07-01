@@ -1,5 +1,5 @@
 ## tmux-guide
-This repository will include tmux guides for beginners.
+This repository will include tmux guides for beginners. For the best learning experience, please experiment with provided guides and commands as you go. This will ensure you grasp this tool better.
 
 ---
 
