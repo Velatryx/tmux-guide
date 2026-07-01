@@ -46,5 +46,5 @@ Detailed [here](https://tmux.info/docs/commands/respawn-pane)
 
 ---
 
->TIP If you're lost, use `Ctrl + b` then `?` for built-in help
+>TIP: If you're lost, use `Ctrl + b` then `?` for built-in help
 
