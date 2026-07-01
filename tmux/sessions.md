@@ -2,6 +2,8 @@
 
 > 💻 **Prerequisite:** This guide expects you to be using a Unix-like terminal, preferably running `bash` or `zsh`
 
+---
+
 ### Creating sessions:
 
 > Open your terminal, and start a new session with:
@@ -38,6 +40,8 @@ And get back to your work on "main" session.
 Similarly, you can attach or create (if doesn't exist) to a session by adding `-A` option.
 
 
+---
+
 ## Listing sessions
 
 If you have many sessions, or you forgot your session's name, you can simply list them.
@@ -52,6 +56,8 @@ hello: 1 windows (created Wed Jul  1 15:32:01 2026)
 main: 1 windows (created Wed Jul  1 15:31:49 2026)
 ```
 
+---
+
 ## Renaming Sessions
 
 Choosing a name for a session might not seem really important, but for a good workflow, it makes the tracking easier. If you are not happy with the name, use: 
@@ -65,11 +71,16 @@ tmux rename -t 0 hello
 `rename`: renames a session
 `-t`: specifies the target session, and '0' is the name of the session.
 
+---
+
 ## Detaching sessions
 
 You can use `tmux detach` to detach the current session, but it is not very practical. The best way is to use a shortcut:
 
 > `'Ctrl + b' then d`
+
+
+---
 
 ## Killing sessions
 
@@ -95,6 +106,7 @@ tmux kill-session -a -t main
 
 Killing all sessions except 'main'.
 
+---
 
 ## Switching sessions
 
