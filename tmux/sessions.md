@@ -4,7 +4,7 @@
 
 ### Creating sessions:
 
-> Start a new session with:
+> Open your terminal, and start a new session with:
 
 ```bash
 tmux new-session
