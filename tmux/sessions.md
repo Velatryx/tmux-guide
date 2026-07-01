@@ -14,7 +14,7 @@ or if you want to customize the session name:
 ```bash
 tmux new -s mysession
 ```
-This creates a new session and attaches the session instantly named "mysession". Adding `-n` in the end of it will name the window of your choice.
+This creates a new session and attaches the session instantly named "mysession". Adding `-n <name>` in the end of it will name the window of your choice.
 
 > Attaching to an existing session called "main", if not, creating a new one named "main"
 
