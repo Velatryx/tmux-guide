@@ -44,7 +44,7 @@ This respawns pane 1 running top.
 
 Detailed [here](https://tmux.info/docs/commands/respawn-pane)
 
---
+---
 
-> If you're lost, use `Ctrl + b` then `?` for built-in help
+TIP> If you're lost, use `Ctrl + b` then `?` for built-in help
 
