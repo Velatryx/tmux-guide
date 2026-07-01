@@ -8,14 +8,24 @@ This repository will include tmux guides for beginners.
 tmux is a terminal multiplexer for Unix-like operating systems. It allows multiple terminal sessions to be accessed simultaneously in a single window. It is useful for running more than one command-line program at the same time.
 
 ---
-We will learn session & window management, and core utilities. Screenshots will be provided if necessary for visualization.
+## What to expect? 
 
-Of course, you can also read the official documentation: https://github.com/tmux/tmux or https://tmux.info/docs/getting-started
-
-But if you don't want to read everything, and simply dive into it, you can refer to this repository.
-
-Note: Learning tmux is *NOT* necessary for people who work in/study cybersecurity. You can use the tools which are convenient for you of your choice. I simply created this repository for people who want to have a better control in their workflow like myself. 
+* **Session Management:** How to create, detach, and reattach persistent terminal sessions.
+* **Window & Pane Management:** How to split your screen horizontally and vertically to multitask like a pro.
+* **Core Utilities & Shortcuts:** The essential keybindings you need to navigate effortlessly.
 
 ---
+## Who is this for?
+
+This guide is for anyone—developers, sysadmins, security enthusiasts, or students—who wants better control over their command-line workflow. 
+
+> 💡 **Note:** Tools are a matter of personal preference. If you are studying cybersecurity or system administration, `tmux` isn't a strict requirement, but it is a massive quality-of-life upgrade for your terminal efficiency.
+
+---
+
+If you ever want to dig deeper, you can always check out the official resources:
+* [Official GitHub Repository](https://github.com/tmux/tmux)
+* [Official Getting Started Guide](https://tmux.info/docs/getting-started)
+
 
 **Have fun!*
