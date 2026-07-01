@@ -18,7 +18,7 @@ More on here: [tmux selectp](https://tmux.info/docs/commands/split-window)
 
 ## Resizing panes
 
-Resizing is pretty similar to selecting panes. You still use `Ctrl + b`, but when you press b, you have to instantly pressing an arrow key, without waiting, `Ctrl + b+arrow_key`. You can spam the arrow key until it's resized to your liking. Note that resizing of the window will depend on its position. If you have to panes divided horizontally, you will use 'up_arrowkey', or 'down_arrowkey'.
+Resizing is pretty similar to selecting panes. You should hit `Ctrl + b` and `any arrow key` at the same time, hold the prefix while doing so, until it's resized to your liking. Note that resizing of the window will depend on its position. If you have to panes divided horizontally, you will use 'up_arrowkey', or 'down_arrowkey'.
 
 More on here: [tmux resizep](https://tmux.info/docs/commands/resize-pane)
 
