@@ -89,7 +89,7 @@ Here, '0' is the index of the window unlike in session management.
 
 [Respawn guide](https://tmux.info/docs/commands/respawn-window)
 
-##
 
+---
 
-
+>TIP: If you're lost, use Ctrl + b then ? for built-in help
