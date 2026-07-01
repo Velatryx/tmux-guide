@@ -49,7 +49,7 @@ hello: 1 windows (created Wed Jul  1 15:32:01 2026)
 main: 1 windows (created Wed Jul  1 15:31:49 2026)
 ```
 
-If you're in an active session, you can also list the existing sessions using: 'Ctrl + b' + s. This opens a small, and interactive window and lets you choose a session.
+If you're in an active session, you can also list the existing sessions using: `'Ctrl + b' + s`. This opens a small, and interactive window and lets you choose a session. Shortcuts will be discussed later. 
 
 > NOTE: This .md file has contents heavily based on, but paraphrased in simpler language, and given context to core utilities, instead of everything as in the specified resource. Feel free to check it out for more options.
 [tmux.info](tmux.info/docs/commands)
