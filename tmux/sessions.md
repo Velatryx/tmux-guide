@@ -66,7 +66,7 @@ tmux rename -t 0 hello
 
 You can use `tmux detach` to detach the current session, but it is not very practical. The best way is to use a shortcut:
 
-> `'Ctrl + b' + d`
+> `'Ctrl + b' then d`
 
 ## Killing sessions
 
@@ -95,11 +95,11 @@ Killing all sessions except 'main'.
 
 ## Switching sessions
 
-Personally, I like just using `'Ctrl + b' + s` to list sessions, and choosing a session with arrow keys and pressing enter to choose, because it's easier, and more convenient. However, you can still find out more about switching [here](https://tmux.info/docs/commands/new-session).
+Personally, I like just using `'Ctrl + b' then s` to list sessions, and choosing a session with arrow keys and pressing enter to choose, because it's easier, and more convenient. However, you can still find out more about switching [here](https://tmux.info/docs/commands/new-session).
 
 ---
 
-If you're in an active session, you can also list the existing sessions using: `'Ctrl + b' + s`. This opens a small, and interactive window and lets you choose a session. Shortcuts will be discussed later. 
+If you're in an active session, you can also list the existing sessions using: `'Ctrl + b' then s`. This opens a small, and interactive window and lets you choose a session. Shortcuts will be discussed later. 
 
 > NOTE: This .md file has contents heavily based on, but paraphrased in simpler language, and given context to core utilities, instead of everything as in the specified resource. Feel free to check it out for more options.
 [tmux.info](https://tmux.info/docs/commands)
