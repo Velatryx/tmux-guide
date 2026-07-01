@@ -116,5 +116,9 @@ Personally, I like just using `'Ctrl + b' then s` to list sessions, and choosing
 
 If you're in an active session, you can also list the existing sessions using: `'Ctrl + b' then s`. This opens a small, and interactive window and lets you choose a session. Shortcuts will be discussed later. 
 
+---
+
+>TIP: If you're lost, use Ctrl + b then ? for built-in help
+
 > NOTE: This .md file has contents heavily based on, but paraphrased in simpler language, and given context to core utilities, instead of everything as in the specified resource. Feel free to check it out for more options.
 [tmux.info](https://tmux.info/docs/commands)
