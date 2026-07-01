@@ -1,6 +1,9 @@
 ## Let's get started with sessions.
 
+> 💻 **Prerequisite:** This guide expects you to be using a Unix-like terminal, preferably running `bash` or `zsh`
+
 ### Creating sessions:
+
 > Start a new session with:
 
 ```bash
