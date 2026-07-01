@@ -26,6 +26,6 @@ This guide is for anyone—developers, sysadmins, security enthusiasts, or stude
 If you ever want to dig deeper, you can always check out the official resources:
 * [Official GitHub Repository](https://github.com/tmux/tmux)
 * [Official Getting Started Guide](https://tmux.info/docs/getting-started)
-
+* [Cheatsheet](tmux.info/docs/commands/new-session)
 
 **Have fun!*
