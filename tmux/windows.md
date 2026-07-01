@@ -2,6 +2,9 @@
 
 After you attach to a session, you will have only 1 window, with index of 0, and a name (either you assigned with `-n`, or default name - bash).
 
+
+## Creating windows 
+
 > To create a new window inside your current session:
 
 ```bash
@@ -26,12 +29,15 @@ This will create a new window running 'htop'.
 ```bash
 tmux neww -d -n background 'make build'
 ```
+--- 
 
 ## Selecting windows
 
 > You can select windows with `tmux selectw -n (or -l)` -n being next and -l being last, but more practical way is just using a shortcut.
 
 ### `Ctrl + b then [0-9]` to choose a window with prefix of your choice. This is the recommended way, as it is the fastest. `Ctrl + b then l` selects the last window. 
+
+---
 
 ## Killing windows
 
@@ -49,6 +55,8 @@ Similarly, you can kill all windows but current one with:
 tmux killw -a
 ```
 
+---
+
 ## Listing Windows
 ```
 tmux lsw -a
@@ -65,6 +73,8 @@ bye:2: bash* (1 panes) [171x43]
 main:0: bash* (1 panes) [171x43]
 ```
 
+---
+
 ## Renaming windows
 
 ```
@@ -72,6 +82,8 @@ tmux renamew -t 0 main
 ```
 
 Here, '0' is the index of the window unlike in session management.
+
+---
 
 ## Respawning windows
 
