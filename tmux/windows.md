@@ -11,9 +11,6 @@ After you attach to a session, you will have only 1 window, with index of 0, and
 tmux neww -n logs
 ```
 
-<img width="388" height="69" alt="image" src="https://github.com/user-attachments/assets/eaba4bd5-b4b6-4d6f-bf52-2b8eae779fd1" />
-
-
 This creates a new window named logs (with the help of `-n`, and neww (new-window))
 
 > Or you can create a new window to run a process:
